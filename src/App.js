@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import fetchedData from './Api/fetchData';
+import LandingPage from './components/LandingPage';
 
 function App() {
-  fetchedData();
+  
   return (
-    <div className="bg-red-300 w-full h-screen">
-      
+    <div className="">
+      <LandingPage/>
     </div>
   );
 }
